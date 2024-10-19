@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c0kpqovsceemf"]
+
+[ext_resource type="Texture2D" uid="uid://vhvje7rf7vd0" path="res://assets/kal board.png" id="1_2idwc"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(31, 32)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_2idwc")

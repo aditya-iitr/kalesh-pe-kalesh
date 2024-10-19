@@ -2,21 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qd1mmhq5r1w4"
-path.s3tc="res://.godot/imported/hog-rider.png-909139db0e6c0d54edb10ed0d1bd6480.s3tc.ctex"
+uid="uid://bkd0i6umdn141"
+path="res://.godot/imported/board.png-e85965e742429a2317ea878bbbe6fb80.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/hog-rider.png"
-dest_files=["res://.godot/imported/hog-rider.png-909139db0e6c0d54edb10ed0d1bd6480.s3tc.ctex"]
+source_file="res://assets/board.png"
+dest_files=["res://.godot/imported/board.png-e85965e742429a2317ea878bbbe6fb80.ctex"]
 
 [params]
 
-compress/mode=2
+compress/mode=0
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

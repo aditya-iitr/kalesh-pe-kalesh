@@ -3,19 +3,20 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c847y0iyd6m7x"
-path="res://.godot/imported/barbarians.png-621b2d2f11468ac4cd5a974ae157c61b.ctex"
+path.s3tc="res://.godot/imported/barbarians.png-621b2d2f11468ac4cd5a974ae157c61b.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/barbarians.png"
-dest_files=["res://.godot/imported/barbarians.png-621b2d2f11468ac4cd5a974ae157c61b.ctex"]
+dest_files=["res://.godot/imported/barbarians.png-621b2d2f11468ac4cd5a974ae157c61b.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1

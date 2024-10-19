@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://lccsj2jn7x0s"]
 
 [node name="main" type="Node2D"]
+position = Vector2(-102, -113)
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(577, 325)
+position = Vector2(162, 193)
+position_smoothing_enabled = true
+rotation_smoothing_enabled = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
