@@ -92,4 +92,14 @@ func display_board():
 				8: holder.texture = healer
 				9: holder.texture = hogrider 
 				
-				
+func _input(event):
+	if event is InputEventMouseButton && event.pressed:
+		if event.button_index == MOUSE_BUTTON_LEFT:
+			if is_mouse_out(): return
+			var var1 = snapped(get_global_mouse_position().x,0)/cell_width
+			var var2 = snapped(get_global_mouse_position().y,0)/cell_width
+			print(var1, ' ',var2)
+			
+func is_mouse_out():
+	if get_global_mouse_position().y>135 || get_global_mouse_position().y<-18 || get_global_mouse_position().x<0 || get_global_mouse_position().x>102: return true
+	return false
