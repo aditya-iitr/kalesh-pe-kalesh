@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcsbatjgagh70"
-path="res://.godot/imported/barbraian darkn.jpg-64afb9594a573be12ab8d9a177070890.ctex"
+uid="uid://byvp2k7xy3cev"
+path="res://.godot/imported/bowlern.png-f8616e746d0ea019b55da84cb65d8ce3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dark/barbraian darkn.jpg"
-dest_files=["res://.godot/imported/barbraian darkn.jpg-64afb9594a573be12ab8d9a177070890.ctex"]
+source_file="res://assets/bowlern.png"
+dest_files=["res://.godot/imported/bowlern.png-f8616e746d0ea019b55da84cb65d8ce3.ctex"]
 
 [params]
 

@@ -13,25 +13,25 @@ const texture_holder= preload("res://texture_holder.tscn")
 
 const archer = preload("res://assets/archersn.png")
 const babydragon = preload ("res://assets/baby-dragonn.png")
-#const barbarian = preload("res://assets/barbarians.png")
-#const bowler = preload ("res://assets/bowler.png")
-#const healer = preload ("res://assets/healer.png")
-#const hogrider = preload ("res://assets/hog-rider.png")
+const barbarian = preload("res://assets/barbariansn.png")
+const bowler = preload ("res://assets/bowlern.png")
+const healer = preload ("res://assets/healern.png")
+const hogrider = preload ("res://assets/hog-ridern.png")
 const minion = preload("res://assets/minionsn.png")
-#const warden = preload("res://assets/warden.png")
-#const wizard = preload ("res://assets/wizard.png")
+const warden = preload("res://assets/wardenn.png")
+const wizard = preload ("res://assets/wizardn.png")
 
 
 
-#const dark_archer = preload("res://assets/dark/archer dark.jpg")
-#const dark_babydragon = preload ("res://assets/dark/baby drag dark.jpg")
+const dark_archer = preload("res://assets/dark/archer darkn.jpg")
+const dark_babydragon = preload ("res://assets/dark/baby drag darkn.jpg")
 const dark_barbarian = preload("res://assets/dark/barbraian darkn.jpg")
-#const dark_bowler = preload ("res://assets/dark/bowler dark.jpg")
-#const dark_healer = preload ("res://assets/dark/healer dark.jpg")
-#const dark_hogrider = preload ("res://assets/dark/hog dark.jpg")
-#const dark_minion = preload("res://assets/dark/minion dark.jpg")
-#const dark_warden = preload("res://assets/dark/warden dark.jpg")
-#const dark_wizard = preload ("res://assets/dark/wizard dark.jpg")
+const dark_bowler = preload ("res://assets/dark/bowler darkn.jpg")
+const dark_healer = preload ("res://assets/dark/healer darkn.jpg")
+const dark_hogrider = preload ("res://assets/dark/hog darkn.jpg")
+const dark_minion = preload("res://assets/dark/minion darkn.jpg")
+const dark_warden = preload("res://assets/dark/warden darkn.jpg")
+const dark_wizard = preload ("res://assets/dark/wizard darkn.jpg")
 
 
 
@@ -73,23 +73,23 @@ func display_board():
 			
 			match board[i][j]:
 				-1: holder.texture = dark_barbarian
-			#	-2: holder.texture = dark_archer
-#				-3: holder.texture = dark_minion
-#				-4: holder.texture = dark_bowler
-#				-5: holder.texture = dark_wizard
-#				-6: holder.texture = dark_babydragon
-#				-7: holder.texture = dark_warden
-#				-8: holder.texture = dark_healer
-#				-9: holder.texture = dark_hogrider
+				-2: holder.texture = dark_archer
+				-3: holder.texture = dark_minion
+				-4: holder.texture = dark_bowler
+				-5: holder.texture = dark_wizard
+				-6: holder.texture = dark_babydragon
+				-7: holder.texture = dark_warden
+				-8: holder.texture = dark_healer
+				-9: holder.texture = dark_hogrider
 				0: holder.texture = null
-#				1: holder.texture = barbarian
+				1: holder.texture = barbarian
 				2: holder.texture = archer
 				3: holder.texture = minion
-#				4: holder.texture = bowler
-#				5: holder.texture = wizard
+				4: holder.texture = bowler
+				5: holder.texture = wizard
 				6: holder.texture = babydragon
-#				7: holder.texture = warden
-#				8: holder.texture = healer
-#				9: holder.texture = hogrider 
+				7: holder.texture = warden
+				8: holder.texture = healer
+				9: holder.texture = hogrider 
 				
 				

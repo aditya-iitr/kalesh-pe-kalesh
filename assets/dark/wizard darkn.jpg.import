@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcsbatjgagh70"
-path="res://.godot/imported/barbraian darkn.jpg-64afb9594a573be12ab8d9a177070890.ctex"
+uid="uid://dljkgn0d8j5vw"
+path="res://.godot/imported/wizard darkn.jpg-bf643e28ad925d7edecd569b237e987d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/dark/barbraian darkn.jpg"
-dest_files=["res://.godot/imported/barbraian darkn.jpg-64afb9594a573be12ab8d9a177070890.ctex"]
+source_file="res://assets/dark/wizard darkn.jpg"
+dest_files=["res://.godot/imported/wizard darkn.jpg-bf643e28ad925d7edecd569b237e987d.ctex"]
 
 [params]
 
