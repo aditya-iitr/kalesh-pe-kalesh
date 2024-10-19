@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://76ixvqmrllo5"]
+
+[ext_resource type="Texture2D" uid="uid://vhvje7rf7vd0" path="res://assets/kal board.png" id="1_23fpy"]
+[ext_resource type="Script" path="res://assets/chess.gd" id="2_xp6aj"]
+
+[node name="board" type="Sprite2D"]
+position = Vector2(314, 326)
+texture = ExtResource("1_23fpy")
+script = ExtResource("2_xp6aj")
+
+[node name="pieces" type="Node2D" parent="."]
+
+[node name="dots" type="Node" parent="."]
+
+[node name="turn" type="Sprite2D" parent="."]
